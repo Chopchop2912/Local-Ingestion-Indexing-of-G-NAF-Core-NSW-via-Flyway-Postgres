@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# G-NAF data
+*.psv
+*.csv
+*.zip
+*.gz
+
+# Local data folders
+data/
+GNAFAUGUST2026/
+
+# Flyway
+flyway.conf
+flyway_schema_history*
+flyway.log
+
+# Environment
+.env
+.env.*
+
+# PostgreSQL exports
+*.dump
+*.backup
